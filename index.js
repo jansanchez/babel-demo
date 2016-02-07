@@ -1,7 +1,7 @@
 const options = ['yes', 'no'];
 
 (con => {
-	options.each(item => {
+	options.forEach(item => {
 		con.log(item);
 	});
 })(console);

@@ -3,7 +3,7 @@
 var options = ['yes', 'no'];
 
 (function (con) {
-	options.each(function (item) {
+	options.forEach(function (item) {
 		con.log(item);
 	});
 })(console);
