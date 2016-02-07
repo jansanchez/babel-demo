@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "start": "babel *.js -d dest",
-        "test": "xo"
+        "test": "xo *.js"
     },
     "author": "",
     "license": "ISC",
