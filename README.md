@@ -3,7 +3,7 @@ demo babel + es2015
 
 ## Dependencies
 
-### Install Babel-cli Globally
+### Install babel-cli globally
 
 ```bash
 sudo npm install babel-cli -g
@@ -29,7 +29,7 @@ sudo npm install xo --save-dev
 const options = ['yes', 'no'];
 
 (con => {
-	options.each(item => {
+	options.forEach(item => {
 		con.log(item);
 	});
 })(console);
@@ -44,7 +44,7 @@ const options = ['yes', 'no'];
 var options = ['yes', 'no'];
 
 (function (con) {
-	options.each(function (item) {
+	options.forEach(function (item) {
 		con.log(item);
 	});
 })(console);
